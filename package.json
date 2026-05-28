@@ -1,0 +1,26 @@
+{
+  "name": "ai-tool-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A production-ready static dashboard for tracking AI tool launches and builder use cases.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs src 4173",
+    "preview": "node scripts/dev-server.mjs dist 4174",
+    "validate": "node scripts/validate-data.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs"
+  },
+  "keywords": [
+    "ai",
+    "tools",
+    "dashboard",
+    "agentic-coding",
+    "github-pages"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
+
