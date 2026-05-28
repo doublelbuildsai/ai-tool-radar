@@ -4,6 +4,16 @@ A small, publishable dashboard for tracking AI product launches and translating 
 
 The project is intentionally dependency-light: it runs as a static site, validates its own launch data, and can be deployed to GitHub Pages from the generated `dist/` folder.
 
+## Live Demo
+
+After GitHub Pages is enabled, open the interactive app here:
+
+[View the Agent Run demo](https://lawrencelau915.github.io/ai-tool-radar/#agent-run)
+
+The link opens the secure HTTPS version of the local demo section at `src/index.html#agent-run`.
+
+[![AI Tool Radar Agent Run demo snapshot](docs/agent-run-snapshot.svg)](https://lawrencelau915.github.io/ai-tool-radar/#agent-run)
+
 ## What It Does
 
 - Tracks current AI tools, launch status, categories, sources, and adoption notes.
