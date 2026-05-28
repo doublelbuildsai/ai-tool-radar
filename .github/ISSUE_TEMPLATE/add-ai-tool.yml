@@ -1,0 +1,45 @@
+name: Add AI Tool
+description: Suggest a new AI launch for the radar.
+title: "Add tool: "
+labels: ["radar", "data"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: "Example: Codex"
+    validations:
+      required: true
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: "Example: OpenAI"
+    validations:
+      required: true
+  - type: dropdown
+    id: readiness
+    attributes:
+      label: Readiness
+      options:
+        - Adopt
+        - Pilot
+        - Watch
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Official source
+      description: Link to the official launch post, docs, changelog, repo, or model card.
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Builder use case
+      description: What small workflow should a builder test with this tool?
+    validations:
+      required: true
+
