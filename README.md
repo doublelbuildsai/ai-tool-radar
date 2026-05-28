@@ -8,11 +8,11 @@ The project is intentionally dependency-light: it runs as a static site, validat
 
 After GitHub Pages is enabled, open the interactive app here:
 
-[View the Agent Run demo](https://lawrencelau915.github.io/ai-tool-radar/#agent-run)
+[View the Agent Run demo](https://doublelbuildsai.github.io/ai-tool-radar/#agent-run)
 
 The link opens the secure HTTPS version of the local demo section at `src/index.html#agent-run`.
 
-[![AI Tool Radar Agent Run demo snapshot](docs/agent-run-snapshot.svg)](https://lawrencelau915.github.io/ai-tool-radar/#agent-run)
+[![AI Tool Radar Agent Run demo snapshot](docs/agent-run-snapshot.svg)](https://doublelbuildsai.github.io/ai-tool-radar/#agent-run)
 
 ## What It Does
 
